@@ -212,7 +212,7 @@ InfoBox.prototype.createInfoBoxDiv_ = function () {
       //
       // Note: mousemove not included (to resolve Issue 152)
       events = ["mousedown", "mouseover", "mouseout", "mouseup",
-      "click", "dblclick", "touchstart", "touchend", "touchmove"];
+      "click", "dblclick", "touchstart", "touchend", "touchmove", 'wheel', 'mousewheel', 'DOMMouseScroll', 'MozMousePixelScroll'];
 
       for (i = 0; i < events.length; i++) {
 
