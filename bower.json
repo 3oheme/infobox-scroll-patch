@@ -1,0 +1,27 @@
+{
+  "name": "infobox-scroll-patch",
+  "version": "1.1.14",
+  "homepage": "https://github.com/3oheme/infobox-scroll-patch",
+  "authors": [
+    "3oheme <ignacio.palomo.duarte@gmail.com>"
+  ],
+  "description": "Google Maps Infobox plugin patched to have scrolling support",
+  "main": "infobox.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "infobox",
+    "googlemaps",
+    "customize",
+    "scroll"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
